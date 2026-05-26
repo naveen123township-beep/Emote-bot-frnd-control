@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://frnd-control-eshu.vercel.app/$1"
+    }
+  ]
+}
